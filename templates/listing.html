@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}"/>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link
+            href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/2e0586df66.js"></script>
+    <style>
+      body
+          {
+      font-family: 'Oswald', sans-serif !important;
+    }
+
+
+    </style>
+
+    <title>Book Store</title>
+</head>
+<body>
+<!-- Top Nav -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <h2><a href="index.html">Book Store</a></h2>
+            <p>Your one stop book shop</p>
+        </div>
+        <div class="search-box">
+            <input type="search" placeholder="Search Books"/>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="book-section-container">
+        <!-- Must Read Books -->
+        <div class="book-section">
+            <h2>All Books</h2>
+            <div class="card-wraper">
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>Giant Days</h3>
+                    <p>by John Allison</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/b.jpg'%}" alt="Book" srcset="{% static 'img/books/b.jpg'%}"/>
+                    <h3>To Be Taught, If Fortunate</h3>
+                    <p>by Becky Chambers</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/c.jpg'%}" alt="Book" srcset="{% static 'img/books/c.jpg'%}"/>
+                    <h3>Bitch Planet</h3>
+                    <p>by Kelly Sue DeConnick</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/d.jpg'%}" alt="Book" srcset="{% static 'img/books/d.jpg'%}"/>
+                    <h3>Paper Girls</h3>
+                    <p>by Brian K. Vaughan</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/e.jpg'%}" alt="Book" srcset="{% static img/books/e.jpg"/>
+                    <h3>A Terrible Plan</h3>
+                    <p>by Noelle Stevenson, Shannon Watters</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Best Selling Books -->
+        <div class="book-section">
+            <div class="card-wraper">
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>Giant Days</h3>
+                    <p>by John Allison</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="img/books/b.jpg" alt="Book" srcset="{% static 'img/books/b.jpg'%}"/>
+                    <h3>To Be Taught, If Fortunate</h3>
+                    <p>by Becky Chambers</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/c.jpg'%}" alt="Book" srcset="{% static 'img/books/c.jpg'%}"/>
+                    <h3>Bitch Planet</h3>
+                    <p>by Kelly Sue DeConnick</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/d.jpg'%}" alt="Book" srcset="{% static 'img/books/d.jpg'%}"/>
+                    <h3>Paper Girls</h3>
+                    <p>by Brian K. Vaughan</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/e.jpg'%}" alt="Book" srcset="{% static 'img/books/e.jpg'%}"/>
+                    <h3>A Terrible Plan</h3>
+                    <p>by Noelle Stevenson, Shannon Watters</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular This Month Books -->
+        <div class="book-section">
+            <div class="card-wraper">
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>Giant Days</h3>
+                    <p>by John Allison</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>To Be Taught, If Fortunate</h3>
+                    <p>by Becky Chambers</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>Bitch Planet</h3>
+                    <p>by Kelly Sue DeConnick</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>Paper Girls</h3>
+                    <p>by Brian K. Vaughan</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+                <div class="card">
+                    <img src="{% static 'img/books/a.jpg'%}" alt="Book" srcset="{% static 'img/books/a.jpg'%}"/>
+                    <h3>A Terrible Plan</h3>
+                    <p>by Noelle Stevenson, Shannon Watters</p>
+                    <a class="btn btn-primary" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="copyright">
+            Copyright 2019  Book Store
+        </div>
+        <div class="acknowledgement">
+            <a target="_blank" href="#">Bookstore</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
